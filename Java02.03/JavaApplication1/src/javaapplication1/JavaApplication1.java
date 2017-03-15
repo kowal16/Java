@@ -16,9 +16,7 @@ class Figura{
     Double obwod_figury, pole_figury, wymiar;
     //kostruktor
     Boolean czyPunktJestWewnątrz(int x, int y){
-       if(Math.pow(x, 2)+Math.pow(y, 2)<=Math.pow(wymiar, 2))
-        return true;
-       return false;
+       return Math.pow(x, 2)+Math.pow(y, 2)<=Math.pow(wymiar, 2);
     }
     
     String informacja = "Figura";
