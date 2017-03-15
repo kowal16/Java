@@ -10,5 +10,6 @@ package javaapplication1;
  * @author Szymon
  */
 public class MonteCarlo {
-    
+
+    Figura obiektMonte = new Figura(1.0);
 }
