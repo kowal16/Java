@@ -27,6 +27,7 @@ public class ZapiszBinarnie {
         double N3 = 3.0;
         double SR = (N1 + N2 + N3) / N;
         String ST = "Java dla NSI12345";
+        
 
         try {
             RandomAccessFile zapis = new RandomAccessFile("plik.txt", "rw");
